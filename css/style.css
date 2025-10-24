@@ -1,0 +1,47 @@
+@import url("reset.css");
+@import url("fonts.css");
+@import url("https://fonts.googleapis.com/css2?family=BBH+Sans+Bartle:wght@400;700&display=swap");
+
+body {
+	background-color: whitesmoke;
+	font-family: 'BBH Sans Bartle', sans-serif;
+	font-size: 12px;
+}
+
+.menu {
+	position: fixed;
+	top: 10px;
+	max-height: 100%;
+	left: 35%;
+}
+
+.menu::before {
+	display: block;
+	content: "MENU";
+	font-size: 46px;
+	position: relative;
+	margin-bottom: 20px;
+
+}
+
+.menu__list {
+	font-size: 16px;
+}
+
+.menu__item {
+	display: inline-block;
+
+}
+
+
+.main {
+	height: 600px;
+}
+
+
+
+.footer {
+	font-size: 18px;
+	position: sticky;
+	top: 10px;
+}
