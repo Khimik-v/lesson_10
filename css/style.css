@@ -50,7 +50,7 @@ body {
 }
 
 .menu__item:nth-child(2)::after {
-	content: url("Vector.svg");
+	content: url(Vector.svg);
 	transition: all 0.3s;
 }
 
@@ -152,7 +152,7 @@ body {
 
 
 .submenu__item:nth-child(3)::after {
-	content: url("Vector.svg");
+	content: url(Vector.svg);
 	transition: all 0.3s;
 }
 
@@ -197,7 +197,7 @@ body {
 
 .list__item:not(:last-child):not(:nth-child(4))::before {
 	content: "";
-	background: url("check.svg") 0 0 / 100% no-repeat;
+	background: url(check.svg) 0 0 / 100% no-repeat;
 	width: 30px;
 	height: 30px;
 	position: absolute;
@@ -208,7 +208,7 @@ body {
 
 .list__item:nth-of-type(n+4)::before {
 	content: "";
-	background: url("badge.svg") 0 0 / 100% no-repeat;
+	background: url(badge.svg) 0 0 / 100% no-repeat;
 	width: 30px;
 	height: 30px;
 	position: absolute;
