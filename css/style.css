@@ -189,7 +189,6 @@ body {
 	min-height: 30px;
 	padding-left: 40px;
 	line-height: 24px;
-	letter-spacing: 0.2;
 	font-weight: 800;
 	font-size: 14px;
 	font-family: 'Montserrat', sans-serif;
@@ -236,7 +235,6 @@ body {
 .main-title__text {
 	font-family: 'Playfair Display', serif;
 	font-size: 28px;
-	line-height: auto;
 	font-weight: 400;
 	text-align: center;
 	color: #000000;
@@ -260,7 +258,6 @@ body {
 [class*="__more"] {
 	font-family: 'Playfair Display', serif;
 	font-size: 28px;
-	line-height: auto;
 	font-weight: 400;
 	color: #ffffff;
 	position: relative;
@@ -285,7 +282,6 @@ body {
 .button__text {
 	font-family: 'Playfair Display', serif;
 	font-size: 14px;
-	line-height: auto;
 	font-weight: 400;
 	color: #000000;
 	text-align: center;
