@@ -247,7 +247,7 @@ body {
 }
 
 [class*="card"]:first-of-type {
-	margin-left: 123px;
+	margin-left: 100px;
 }
 
 [class*="card"]:not(:first-of-type) {
@@ -276,7 +276,7 @@ body {
 	height: 39px;
 	border: 2px solid black;
 	position: relative;
-	left: 46.5%;
+	left: 46%;
 }
 
 .button__text {
