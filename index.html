@@ -2,115 +2,88 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
-		<meta name="viewport" content="width=, initial-scale=1.0">
-		<link rel="stylesheet" href="css/style.css">
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Face Care</title>
+		<link rel="stylesheet" href="/css/style.css">
 		<link
-			href="https://fonts.googleapis.com/css2?family=Playfair%20Display:wght@400;500;600;700;800&display=swap"
+			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Playfair+Display:wght@400;600&display=swap"
 			rel="stylesheet">
-		<title>Lesson 10</title>
 	</head>
 	<body>
 		<div class="wrapper">
 			<header class="header">
-				<div class="header__container">
-					<div class="menu">
-						<div class="menu__body">
-							<ul class="menu__list">
-								<li class="menu__item">
-									<a href="#" class="menu__link">Some Text</a>
-								</li>
-								<li class="menu__item">
-									<a href="#" class="menu__link">Some Text</a>
-									<ul class="menu__submenu submenu">
-										<li class="submenu__item">
-											<a href="#" class="submenu__link">Some Text</a>
-
-										</li>
-										<li class="submenu__item">
-											<a href="#" class="submenu__link">Some Text</a>
-										</li>
-										<li class="submenu__item">
-											<a href="#" class="submenu__link">Some Text</a>
-											<ul class="submenu__subsubmenu subsubmenu">
-												<li class="subsubmenu__item">
-													<a href="#" class="subsubmenu__link">Some Text</a>
-												</li>
-												<li class="subsubmenu__item">
-													<a href="#" class="subsubmenu__link">Some Text</a>
-												</li>
-												<li class="subsubmenu__item">
-													<a href="#" class="subsubmenu__link">Some Text</a>
-												</li>
-												<li class="subsubmenu__item">
-													<a href="#" class="subsubmenu__link">Some Text</a>
-												</li>
-											</ul>
-										</li>
-										<li class="submenu__item">
-											<a href="#" class="submenu__link">Some Text</a>
-										</li>
+				<div class="menu">
+					<ul class="menu__list">
+						<li class="menu__item"><a href="#" class="menu__link">Home</a></li>
+						<li class="menu__item">
+							<a href="#" class="menu__link">Products</a>
+							<ul class="menu__submenu submenu">
+								<li class="submenu__item"><a href="#"
+										class="submenu__link">Cleansers</a></li>
+								<li class="submenu__item"><a href="#"
+										class="submenu__link">Masks</a></li>
+								<li class="submenu__item">
+									<a href="#" class="submenu__link">More</a>
+									<ul class="submenu__subsubmenu subsubmenu">
+										<li class="subsubmenu__item"><a href="#" class="subsubmenu__link">Eye
+												Patches</a></li>
+										<li class="subsubmenu__item"><a href="#"
+												class="subsubmenu__link">Toners</a></li>
 									</ul>
 								</li>
-								<li class="menu__item">
-									<a href="#" class="menu__link">Some Text</a>
-								</li>
-								<li class="menu__item">
-									<a href="#" class="menu__link">Some Text</a>
-								</li>
 							</ul>
-						</div>
-					</div>
-
+						</li>
+						<li class="menu__item"><a href="#" class="menu__link">About</a></li>
+						<li class="menu__item"><a href="#" class="menu__link">Contact</a></li>
+					</ul>
 				</div>
 			</header>
+
 			<main class="main">
-				<div class="main__section section">
-					<div class="section__list">
-						<ul class="list">
-							<li class="list__item">Unlimited product updates</li>
-							<li class="list__item">Unlimited product</li>
-							<li class="list__item">Unlimited product</li>
-							<li class="list__item">1GB Cloud storage</li>
-							<li class="list__item">Email and community support</li>
-						</ul>
-					</div>
-					<div class="section__image image">
-						<div class="image__title title">
-							<h1 class="title__text">Face</h1>
-						</div>
-						<ul class="image__cards card">
-							<li class="card__cleanser cleanser">
+				<div class="section">
+					<ul class="list">
+						<li class="list__item">Unlimited product updates</li>
+						<li class="list__item">Unlimited product</li>
+						<li class="list__item">Unlimited product</li>
+						<li class="list__item">1GB Cloud storage</li>
+						<li class="list__item">Email and community support</li>
+
+					</ul>
+
+					<div class="section__image">
+						<h1 class="section__title">Face</h1>
+
+						<ul class="cards">
+							<li class="card">
 								<img src="img/сleanser.jpg" alt="Cleanser">
-								<h1 class="cleanser__title">Cleansers</h1>
-								<h2 class="cleanser__more">More</h2>
+								<div class="card__text">
+									<h2 class="card__title">Cleansers</h2>
+									<a href="#" class="card__more">More</a>
+								</div>
 							</li>
-							<li class="card__patch patch">
-								<img src="img/patches.jpg" alt="Patch">
-								<h1 class="patch__title">Eye Patches</h1>
-								<h2 class="patch__more">More</h2>
+							<li class="card">
+								<img src="img/patches.jpg" alt="Eye Patches">
+								<div class="card__text">
+									<h2 class="card__title">Eye Patches</h2>
+									<a href="#" class="card__more">More</a>
+								</div>
 							</li>
-							<li class="card__mask mask">
+							<li class="card">
 								<img src="img/mask.jpg" alt="Mask">
-								<h1 class="mask__title">Мasks</h1>
-								<h2 class="mask__more">More</h2>
+								<div class="card__text">
+									<h2 class="card__title">Masks</h2>
+									<a href="#" class="card__more">More</a>
+								</div>
 							</li>
 						</ul>
-						<div class="image__button button">
-							<h1 class="button__text">More</h1>
-						</div>
+
+						<a href="#" class="button">More</a>
 					</div>
-
 				</div>
-
 			</main>
+
 			<footer class="footer">
-				<div class="footer__section">
-					<div class="footer__inside">
-						&copy;KHIMIK.
-					</div>
-				</div>
+				<div class="footer__inside">&copy; KHIMIK.</div>
 			</footer>
 		</div>
 	</body>
